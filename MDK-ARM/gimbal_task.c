@@ -8,7 +8,9 @@
 
 gimbal_motor_info_t yaw_motor;
 gimbal_motor_info_t pitch_motor;
-motor_info_t  motor_info_chassis[4];       //电机信息结构体
+gimbal_motor_info_t roll_motor;
+
+extern motor_info_t  motor_info_chassis[4];       //电机信息结构体
 
 fp32 yaw_speed_pid [3]={30,0.5,10};   //用的原来的pid
 fp32 yaw_angle_pid[3]={2,0,0.3};

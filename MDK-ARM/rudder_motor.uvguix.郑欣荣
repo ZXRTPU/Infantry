@@ -3517,7 +3517,7 @@
       <Doc>
         <Name>..\User\Chassis_task.c</Name>
         <ColumnNumber>0</ColumnNumber>
-        <TopLine>112</TopLine>
+        <TopLine>1</TopLine>
         <CurrentLine>8</CurrentLine>
         <Folding>1</Folding>
         <ContractedFolders></ContractedFolders>
@@ -3525,9 +3525,9 @@
       </Doc>
       <Doc>
         <Name>..\User-1\INS_task.c</Name>
-        <ColumnNumber>0</ColumnNumber>
-        <TopLine>343</TopLine>
-        <CurrentLine>260</CurrentLine>
+        <ColumnNumber>38</ColumnNumber>
+        <TopLine>247</TopLine>
+        <CurrentLine>262</CurrentLine>
         <Folding>1</Folding>
         <ContractedFolders></ContractedFolders>
         <PaneID>0</PaneID>
@@ -3552,9 +3552,9 @@
       </Doc>
       <Doc>
         <Name>.\gimbal_task.c</Name>
-        <ColumnNumber>0</ColumnNumber>
+        <ColumnNumber>24</ColumnNumber>
         <TopLine>1</TopLine>
-        <CurrentLine>8</CurrentLine>
+        <CurrentLine>11</CurrentLine>
         <Folding>1</Folding>
         <ContractedFolders></ContractedFolders>
         <PaneID>0</PaneID>
