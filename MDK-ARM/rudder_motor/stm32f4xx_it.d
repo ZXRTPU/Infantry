@@ -29,6 +29,7 @@ rudder_motor\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_f
 rudder_motor\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
 rudder_motor\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 rudder_motor\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+rudder_motor\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 rudder_motor\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 rudder_motor\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 rudder_motor\stm32f4xx_it.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -42,4 +43,4 @@ rudder_motor\stm32f4xx_it.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable
 rudder_motor\stm32f4xx_it.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
 rudder_motor\stm32f4xx_it.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 rudder_motor\stm32f4xx_it.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
-rudder_motor\stm32f4xx_it.o: ..\User\drv_usart.h
+rudder_motor\stm32f4xx_it.o: ../User/drv_usart.h

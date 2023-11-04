@@ -30,9 +30,10 @@ rudder_motor\encoder_map.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fl
 rudder_motor\encoder_map.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
 rudder_motor\encoder_map.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 rudder_motor\encoder_map.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+rudder_motor\encoder_map.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 rudder_motor\encoder_map.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 rudder_motor\encoder_map.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 rudder_motor\encoder_map.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-rudder_motor\encoder_map.o: ..\User\rc_potocal.h
-rudder_motor\encoder_map.o: ..\User\drv_can.h
+rudder_motor\encoder_map.o: ../User/rc_potocal.h
+rudder_motor\encoder_map.o: ../User/drv_can.h
 rudder_motor\encoder_map.o: D:\Keil-APPINSTALL\ARM\ARMCC\Bin\..\include\math.h

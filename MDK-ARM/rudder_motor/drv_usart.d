@@ -30,6 +30,7 @@ rudder_motor\drv_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flas
 rudder_motor\drv_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
 rudder_motor\drv_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 rudder_motor\drv_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+rudder_motor\drv_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 rudder_motor\drv_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 rudder_motor\drv_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 rudder_motor\drv_usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h

@@ -34,7 +34,4 @@ extern fp32 pid_calc(pid_struct_t *pid, fp32 ref, fp32 set);
 extern float pid_pitch_calc(pid_struct_t *pid, float ref, float fdb);
 
 
-
-
-
 #endif

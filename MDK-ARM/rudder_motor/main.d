@@ -29,6 +29,7 @@ rudder_motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.
 rudder_motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
 rudder_motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 rudder_motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+rudder_motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 rudder_motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 rudder_motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 rudder_motor\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -48,8 +49,11 @@ rudder_motor\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 rudder_motor\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
 rudder_motor\main.o: ../Core/Inc/can.h
 rudder_motor\main.o: ../Core/Inc/dma.h
+rudder_motor\main.o: ../Core/Inc/spi.h
 rudder_motor\main.o: ../Core/Inc/tim.h
 rudder_motor\main.o: ../Core/Inc/usart.h
 rudder_motor\main.o: ../Core/Inc/gpio.h
-rudder_motor\main.o: ..\User\drv_can.h
-rudder_motor\main.o: ..\User\drv_usart.h
+rudder_motor\main.o: ../User/drv_can.h
+rudder_motor\main.o: ../User/drv_usart.h
+rudder_motor\main.o: ../User-1/bsp_delay.h
+rudder_motor\main.o: ../User-1/struct_typedef.h

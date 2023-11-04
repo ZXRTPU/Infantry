@@ -30,6 +30,7 @@ rudder_motor\drv_can.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_
 rudder_motor\drv_can.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
 rudder_motor\drv_can.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 rudder_motor\drv_can.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+rudder_motor\drv_can.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 rudder_motor\drv_can.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 rudder_motor\drv_can.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 rudder_motor\drv_can.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -39,3 +40,4 @@ rudder_motor\drv_can.o: ..\User\pid.h
 rudder_motor\drv_can.o: ..\User\encoder_map.h
 rudder_motor\drv_can.o: D:\Keil-APPINSTALL\ARM\ARMCC\Bin\..\include\math.h
 rudder_motor\drv_can.o: ..\User\rc_map.h
+rudder_motor\drv_can.o: ../User-2/gimbal_task.h

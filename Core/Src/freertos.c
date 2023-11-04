@@ -49,6 +49,8 @@
 /* USER CODE END Variables */
 osThreadId defaultTaskHandle;
 osThreadId RUDDER_MOTORHandle;
+osThreadId imuTaskHandle;
+osThreadId GIMBAL_TASKHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -57,6 +59,8 @@ osThreadId RUDDER_MOTORHandle;
 
 void StartDefaultTask(void const * argument);
 void rudder_motor_task(void const * argument);
+void ins_task(void const * argument);
+void gimbal_task(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -108,8 +112,16 @@ void MX_FREERTOS_Init(void) {
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
   /* definition and creation of RUDDER_MOTOR */
-  osThreadDef(RUDDER_MOTOR, rudder_motor_task, osPriorityIdle, 0, 128);
+  osThreadDef(RUDDER_MOTOR, rudder_motor_task, osPriorityAboveNormal, 0, 512);
   RUDDER_MOTORHandle = osThreadCreate(osThread(RUDDER_MOTOR), NULL);
+
+  /* definition and creation of imuTask */
+  osThreadDef(imuTask, ins_task, osPriorityRealtime, 0, 1024);
+  imuTaskHandle = osThreadCreate(osThread(imuTask), NULL);
+
+  /* definition and creation of GIMBAL_TASK */
+  osThreadDef(GIMBAL_TASK, gimbal_task, osPriorityHigh, 0, 512);
+  GIMBAL_TASKHandle = osThreadCreate(osThread(GIMBAL_TASK), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -151,6 +163,43 @@ __weak void rudder_motor_task(void const * argument)
     osDelay(1);
   }
   /* USER CODE END rudder_motor_task */
+}
+
+/* USER CODE BEGIN Header_ins_task */
+/**
+* @brief Function implementing the imuTask thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_ins_task */
+__weak void ins_task(void const * argument)
+{
+  /* USER CODE BEGIN ins_task */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END ins_task */
+}
+
+/* USER CODE BEGIN Header_gimbal_task */
+/**
+* @brief Function implementing the GIMBAL_TASK thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_gimbal_task */
+__weak void gimbal_task(void const * argument)
+{
+  /* USER CODE BEGIN gimbal_task */
+  /* Infinite loop */
+  for(;;)
+  {
+		
+    osDelay(1);
+  }
+  /* USER CODE END gimbal_task */
 }
 
 /* Private application code --------------------------------------------------*/

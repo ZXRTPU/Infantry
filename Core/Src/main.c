@@ -21,15 +21,16 @@
 #include "cmsis_os.h"
 #include "can.h"
 #include "dma.h"
+#include "spi.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
-#include "drv_can.h"
-#include "drv_usart.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "drv_can.h"
+#include "drv_usart.h"
+#include "bsp_delay.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -95,28 +96,24 @@ int main(void)
   MX_GPIO_Init();
   MX_DMA_Init();
   MX_CAN1_Init();
-	CAN1_Init();
-	
   MX_CAN2_Init();
-	CAN2_Init();
-	
   MX_TIM1_Init();
   MX_TIM2_Init();
   MX_TIM8_Init();
   MX_TIM9_Init();
   MX_TIM10_Init();
-	
   MX_USART1_UART_Init();
-	
   MX_USART3_UART_Init();
-	USART3_Init();
-	
   MX_USART6_UART_Init();
-	USART6_Init();
+  MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
+	  CAN1_Init();
+		CAN2_Init();
+		USART3_Init();
+		USART6_Init();
  
 	HAL_TIM_Base_Start_IT(&htim1);//开启定时器1并打开中断,记得修改优先级
-
+  delay_init();
 
   /* USER CODE END 2 */
 

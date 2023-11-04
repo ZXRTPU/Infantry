@@ -8,7 +8,10 @@ void CAN1_Init(void);
 void CAN2_Init( void );
 void can_remote(uint8_t sbus_buf[],uint8_t can_send_id);
 
+//云台电机电流发送函数-CAN1
 void set_motor_current_can2(uint8_t id_range, int16_t v1, int16_t v2, int16_t v3, int16_t v4);
 
+//底盘电机电流发送函数-CAN2
+void set_motor_current_chassis(uint8_t id_range, int16_t v1, int16_t v2, int16_t v3, int16_t v4);
 
 #endif
