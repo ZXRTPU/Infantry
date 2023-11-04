@@ -35,6 +35,14 @@ void Gimbal_gyro_speed_current();
 
 void Gimbal_gyro_angle_current();
 
+void lock_gimbal_yaw();
+
+void detel_gimbal(fp32* angle);
+
+fp32 GXY_CXY(fp32 yaw_ground,fp32 chassis_ground);
+
+void chassis_yaw_mode();
+
 #endif
 
 

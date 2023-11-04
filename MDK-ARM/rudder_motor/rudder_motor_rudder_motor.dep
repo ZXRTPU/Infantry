@@ -1799,7 +1799,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x635761F6)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x635761F6)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x635761F6)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x635761F6)
-F (..\User-1\INS_task.c)(0x65466286)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../User -I ../User-1 -I ../Drivers/CMSIS/DSP/Include -I ../User-2-I.\RTE\_rudder_motor-ID:\Keil-APPINSTALL\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil-APPINSTALL\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DFPU_PRESENT="1" -DFPU_USED="1" -DARM_MATH_CM4 -DCC_ARM-o rudder_motor\ins_task.o --omf_browse rudder_motor\ins_task.crf --depend rudder_motor\ins_task.d)
+F (..\User-1\INS_task.c)(0x6546688E)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../User -I ../User-1 -I ../Drivers/CMSIS/DSP/Include -I ../User-2-I.\RTE\_rudder_motor-ID:\Keil-APPINSTALL\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil-APPINSTALL\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DFPU_PRESENT="1" -DFPU_USED="1" -DARM_MATH_CM4 -DCC_ARM-o rudder_motor\ins_task.o --omf_browse rudder_motor\ins_task.crf --depend rudder_motor\ins_task.d)
 I (..\User-1\INS_task.h)(0x6545D885)
 I (..\User-1\struct_typedef.h)(0x653396CD)
 I (..\User-1\PID_IMU.h)(0x6545D4BA)
@@ -1897,8 +1897,8 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x635761F6)
 F (.\PID_IMU.h)(0x6545D7E6)()
 F (..\User-1\struct_typedef.h)(0x653396CD)()
 F (..\User-1\BMI088reg.h)(0x653396CD)()
-F (.\gimbal_task.c)(0x654664CB)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../User -I ../User-1 -I ../Drivers/CMSIS/DSP/Include -I ../User-2-I.\RTE\_rudder_motor-ID:\Keil-APPINSTALL\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil-APPINSTALL\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DFPU_PRESENT="1" -DFPU_USED="1" -DARM_MATH_CM4 -DCC_ARM-o rudder_motor\gimbal_task.o --omf_browse rudder_motor\gimbal_task.crf --depend rudder_motor\gimbal_task.d)
-I (gimbal_task.h)(0x65466342)
+F (.\gimbal_task.c)(0x654677BD)(--c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../User -I ../User-1 -I ../Drivers/CMSIS/DSP/Include -I ../User-2-I.\RTE\_rudder_motor-ID:\Keil-APPINSTALL\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil-APPINSTALL\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DFPU_PRESENT="1" -DFPU_USED="1" -DARM_MATH_CM4 -DCC_ARM-o rudder_motor\gimbal_task.o --omf_browse rudder_motor\gimbal_task.crf --depend rudder_motor\gimbal_task.d)
+I (gimbal_task.h)(0x654677BD)
 I (../Core/Inc/main.h)(0x6545C9C7)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x635761F6)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x6545C9C7)
@@ -1955,4 +1955,4 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x635761C6)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x635761C6)
 I (rc_map.h)(0x65412786)
 I (encoder_map.h)(0x6542690B)
-F (.\gimbal_task.h)(0x65466342)()
+F (.\gimbal_task.h)(0x654677BD)()

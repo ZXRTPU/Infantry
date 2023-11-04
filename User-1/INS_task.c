@@ -354,7 +354,8 @@ void ins_task(void const * argument)
 				MahonyAHRSupdateIMU(INS_quat,INS_gyro[0],INS_gyro[1],INS_gyro[2],accel_fliter_3[0],accel_fliter_3[1],accel_fliter_3[2]);
        
 			 //由于云台使用陀螺仪解算出的角度，其范围在（-pi,pi）
-	      get_angle(INS_quat,&yaw_motor.gyro_angle,&pitch_motor.gyro_angle,&roll_motor.gyro_angle);
+	      //get_angle(INS_quat,&yaw_motor.gyro_angle,&pitch_motor.gyro_angle,&roll_motor.gyro_angle);
+				get_angle(INS_quat, INS_angle + INS_YAW_ADDRESS_OFFSET, INS_angle + INS_PITCH_ADDRESS_OFFSET, INS_angle + INS_ROLL_ADDRESS_OFFSET);
     }
 }
 
